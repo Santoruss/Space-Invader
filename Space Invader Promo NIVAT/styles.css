@@ -1,16 +1,16 @@
 body{
     margin:0;
     padding:0;
-    background:black;
     width:100%;
-    text-align:center
+    text-align:center;
+    background-image: url("./image/spacefond.jpg")
     
 }
 #gameBoard{
-    width:80%;
-    height:80vh;
+    width:85%;
+    height:85vh;
     position:absolute;            
     top: 50%;                        
     transform: translate(-50%, -50%) ;
-    border:2px dotted white
+    border:2px dotted rgb(255, 255, 255)
 }
